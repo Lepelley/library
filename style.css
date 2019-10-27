@@ -1,0 +1,34 @@
+body {
+  background: rgb(0, 2, 24);
+  color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+} 
+
+main {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+table {
+  border: 1px solid white;
+  margin: auto;
+  max-width: 100%;
+}
+
+tr, th, td {
+  border: 1px solid white;
+  border-collapse: collapse;
+  padding: 10px;
+}
+
+td {
+  text-align: center;
+}
+
+#form-add-book input{
+  margin-right: 10px;
+}
+
+.delete, .read {
+  cursor: pointer;
+}
